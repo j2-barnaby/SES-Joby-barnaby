@@ -405,7 +405,7 @@ int main(void) {
 
 Not Completed due to an unkown error in the pass excersise i was unable to get this working. the code built but when running the commands to view the results in the terminal like the previous tasks. the minicom was unable to receive the information inputted.
 
-![printf](w6screenshot/5.png)
+![printf](w6screenshot/6.png)
 
 ---
 
