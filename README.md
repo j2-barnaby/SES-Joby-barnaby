@@ -33,7 +33,7 @@ Each worksheet has its own subfolder with its own README detailing what was atte
 ```
 SES
 │
-├── README.md                    ← Overall assignment README
+├── README.md                   
 │
 ├── worksheet-2/
 │   ├── README.md
