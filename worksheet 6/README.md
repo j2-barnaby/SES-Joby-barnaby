@@ -403,11 +403,9 @@ int main(void) {
 
 ### Result
 
-Text typed in the serial terminal is received by `scanf` and echoed back by `printf`.
+Not Completed due to an unkown error in the pass excersise i was unable to get this working. the code built but when running the commands to view the results in the terminal like the previous tasks. the minicom was unable to receive the information inputted.
 
-> **Screenshot — Pass Exercise 2:**
-> 
-> <!-- Insert screenshot of terminal showing typed input being echoed back -->
+![printf](w6screenshot/5.png)
 
 ---
 
@@ -472,11 +470,9 @@ int main(void) {
 
 ### Result
 
-Five arithmetic questions appear in the serial terminal. The user types each answer and receives a correct/wrong response. A final score is printed.
+What was supposed to happen: Five arithmetic questions appear in the serial terminal. The user types each answer and receives a correct/wrong response. A final score is printed. 
 
-> **Screenshot — Credit Exercise 1:**
-> 
-> <!-- Insert screenshot of terminal showing questions being asked, answers typed, and final score -->
+What did happen: As the same as before with the pass task, the files compiled and flashed correctly but when running the mincom terminal to see the results nothing showed up just a blank mincom screen. 
 
 ---
 
@@ -543,11 +539,9 @@ int main(void) {
 
 ### Result
 
-The serial terminal shows four memory addresses. The allocated block address is just above the heap start. The stack pointer is unchanged before and after `malloc`.
+What was supposed to happen: The serial terminal shows four memory addresses. The allocated block address is just above the heap start. The stack pointer is unchanged before and after `malloc`.
 
-> **Screenshot — Credit Exercise 2:**
-> 
-> <!-- Insert screenshot of terminal showing the four memory addresses printed out -->
+What did happen: The same as the two previous tasks my minicom terminal remained blank the same as the task before and didnt even print the `printf` statements that were written in the main.c compiled and flashed to the olimex board. 
 
 ---
 
@@ -581,4 +575,4 @@ The linker reads libraries left to right. Listing them twice (before and after t
 
 ## Final Conclusion
 
-This worksheet demonstrated cross-compiling a C standard library from source and integrating it into a bare-metal embedded project. By providing `_write` and `_sbrk` stubs in `syscalls.c`, standard functions like `printf`, `scanf`, and `malloc` were made to work on hardware with no operating system. The pass exercises confirmed the full I/O chain, the maths test exercised bidirectional formatted I/O, and the debug exercise gave direct visibility into memory layout and heap behaviour.
+This worksheet demonstrated cross-compiling a C standard library from source and integrating it into a bare-metal embedded project. By providing `_write` and `_sbrk` stubs in `syscalls.c`, standard functions like `printf`, `scanf`, and `malloc` were made to work on hardware with no operating system. The task in this task became rather difficult to complete in the end and after a while of working on them i decided it would be better to move on and attempt the other worksheets as i didnt seem to be getting anywhere with it, im not sure whether there was an error with the board or the code that i was flashing to the board.
