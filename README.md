@@ -29,11 +29,36 @@ Each worksheet has its own subfolder with its own README detailing what was atte
 ---
 
 ## Repository Structure
-/worksheet-2/
-/worksheet-3/
-/worksheet-4/
-/worksheet-6/
-/worksheet-7/
-/worksheet-8/
 
+Embedded-Systems-Assignment/
+│
+├── README.md                    ← Overall assignment README
+│
+├── worksheet-2/
+│   ├── README.md
+│   └── w2screenshot/
+│
+├── worksheet-3/
+│   ├── README.md
+│   ├── w3screenshot/
+│   └── video/
+│
+├── worksheet-4/
+│   ├── README.md
+│   └── w4screeenshot/
+│
+├── worksheet-6/
+│   ├── README.md
+│   └── w6screeenshot/
+│
+├── worksheet-7/
+│   ├── README.md
+│   ├── w7screenshot/
+│   └── video/
+│
+└── worksheet-8/
+    ├── README.md
+    ├── w8screenshot/
+    └── video/
+    
 **Worksheet 5 note:** This worksheet required specialist lab equitment to complete. i was unfortunatley unable to get to that stage during the lab sessions to carry out worksheet 5 and i couldnt get hold of the hardware to use at home so this worksheet could not be completed. 
