@@ -31,7 +31,7 @@ Each worksheet has its own subfolder with its own README detailing what was atte
 ## Repository Structure
 
 ```
-Embedded-Systems-Assignment/
+SES
 │
 ├── README.md                    ← Overall assignment README
 │
