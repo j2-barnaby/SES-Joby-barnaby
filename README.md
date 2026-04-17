@@ -21,8 +21,8 @@ Each worksheet has its own subfolder with its own README detailing what was atte
 | Worksheet 2 | Build Flash and Debug Workflow | Completed |
 | Worksheet 3 | GPIO, Button input and FSM design | Completed |
 | Worksheet 4 | UART Communication Using USART2  | Completed |
-| Worksheet 5 | Basic Computer architecture | Incompleted |
-| Worksheet 6 | Time Interrupts and Real Time Processing  | Completed |
+| Worksheet 5 | Basic Computer architecture | Not Attempted |
+| Worksheet 6 | Time Interrupts and Real Time Processing  | Incomplete |
 | Worksheet 7 | UART communications interfaces | Completed |
 | Worksheet 8 | FreeRTOS | Completed |
 
